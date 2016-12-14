@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		77E522691DF386530015B85C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77E522681DF386530015B85C /* Assets.xcassets */; };
 		77E522701DF386530015B85C /* MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 77E5226F1DF386530015B85C /* MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		77E522751DF386530015B85C /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E522741DF386530015B85C /* Messages.framework */; };
 		77E522781DF386530015B85C /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E522771DF386530015B85C /* MessagesViewController.swift */; };
@@ -20,6 +19,7 @@
 		77E522941DF38DF10015B85C /* romb.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E5228E1DF38DF10015B85C /* romb.png */; };
 		77E522951DF38DF10015B85C /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E5228F1DF38DF10015B85C /* square.png */; };
 		77E522961DF38DF10015B85C /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E522901DF38DF10015B85C /* star.png */; };
+		77FC74491E01E2D300424F23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77FC74471E01E2D300424F23 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,9 +47,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		77E522651DF386530015B85C /* customizedStickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = customizedStickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		77E522681DF386530015B85C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		77E5226A1DF386530015B85C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77E522651DF386530015B85C /* purpleBackgroundStickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = purpleBackgroundStickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77E5226F1DF386530015B85C /* MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MessagesExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		77E522741DF386530015B85C /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
 		77E522771DF386530015B85C /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +61,8 @@
 		77E5228E1DF38DF10015B85C /* romb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = romb.png; path = stickers/romb.png; sourceTree = "<group>"; };
 		77E5228F1DF38DF10015B85C /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = square.png; path = stickers/square.png; sourceTree = "<group>"; };
 		77E522901DF38DF10015B85C /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star.png; path = stickers/star.png; sourceTree = "<group>"; };
+		77FC74471E01E2D300424F23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = purpleBackgroundStickers/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		77FC74481E01E2D300424F23 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = purpleBackgroundStickers/Info.plist; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 		77E5225E1DF386530015B85C = {
 			isa = PBXGroup;
 			children = (
-				77E522671DF386530015B85C /* customizedStickers */,
+				77E522671DF386530015B85C /* purpleBackgroundStickers */,
 				77E522761DF386530015B85C /* MessagesExtension */,
 				77E522731DF386530015B85C /* Frameworks */,
 				77E522661DF386530015B85C /* Products */,
@@ -90,19 +90,19 @@
 		77E522661DF386530015B85C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				77E522651DF386530015B85C /* customizedStickers.app */,
+				77E522651DF386530015B85C /* purpleBackgroundStickers.app */,
 				77E5226F1DF386530015B85C /* MessagesExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		77E522671DF386530015B85C /* customizedStickers */ = {
+		77E522671DF386530015B85C /* purpleBackgroundStickers */ = {
 			isa = PBXGroup;
 			children = (
-				77E522681DF386530015B85C /* Assets.xcassets */,
-				77E5226A1DF386530015B85C /* Info.plist */,
+				77FC74471E01E2D300424F23 /* Assets.xcassets */,
+				77FC74481E01E2D300424F23 /* Info.plist */,
 			);
-			name = customizedStickers;
+			name = purpleBackgroundStickers;
 			path = customizedStickers1;
 			sourceTree = "<group>";
 		};
@@ -143,9 +143,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		77E522641DF386530015B85C /* customizedStickers */ = {
+		77E522641DF386530015B85C /* purpleBackgroundStickers */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 77E522851DF386530015B85C /* Build configuration list for PBXNativeTarget "customizedStickers" */;
+			buildConfigurationList = 77E522851DF386530015B85C /* Build configuration list for PBXNativeTarget "purpleBackgroundStickers" */;
 			buildPhases = (
 				77E522631DF386530015B85C /* Resources */,
 				77E522841DF386530015B85C /* Embed App Extensions */,
@@ -155,9 +155,9 @@
 			dependencies = (
 				77E522721DF386530015B85C /* PBXTargetDependency */,
 			);
-			name = customizedStickers;
+			name = purpleBackgroundStickers;
 			productName = customizedStickers1;
-			productReference = 77E522651DF386530015B85C /* customizedStickers.app */;
+			productReference = 77E522651DF386530015B85C /* purpleBackgroundStickers.app */;
 			productType = "com.apple.product-type.application.messages";
 		};
 		77E5226E1DF386530015B85C /* MessagesExtension */ = {
@@ -197,7 +197,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 77E522621DF386530015B85C /* Build configuration list for PBXProject "customizedStickers" */;
+			buildConfigurationList = 77E522621DF386530015B85C /* Build configuration list for PBXProject "purpleBackgroundStickers" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -210,7 +210,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				77E522641DF386530015B85C /* customizedStickers */,
+				77E522641DF386530015B85C /* purpleBackgroundStickers */,
 				77E5226E1DF386530015B85C /* MessagesExtension */,
 			);
 		};
@@ -221,7 +221,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77E522691DF386530015B85C /* Assets.xcassets in Resources */,
+				77FC74491E01E2D300424F23 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,7 +373,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				INFOPLIST_FILE = MessagesExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.byteout.customizedStickers.MessagesExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.byteout.purpleBackgroundStickers.MessagesExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -386,7 +386,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
 				INFOPLIST_FILE = MessagesExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.byteout.customizedStickers.MessagesExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.byteout.purpleBackgroundStickers.MessagesExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -398,8 +398,8 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = customizedStickers1/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.byteout.customizedStickers;
+				INFOPLIST_FILE = purpleBackgroundStickers/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.byteout.purpleBackgroundStickers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -410,8 +410,8 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = customizedStickers1/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = com.byteout.customizedStickers;
+				INFOPLIST_FILE = purpleBackgroundStickers/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.byteout.purpleBackgroundStickers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -420,7 +420,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		77E522621DF386530015B85C /* Build configuration list for PBXProject "customizedStickers" */ = {
+		77E522621DF386530015B85C /* Build configuration list for PBXProject "purpleBackgroundStickers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				77E5227F1DF386530015B85C /* Debug */,
@@ -438,7 +438,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		77E522851DF386530015B85C /* Build configuration list for PBXNativeTarget "customizedStickers" */ = {
+		77E522851DF386530015B85C /* Build configuration list for PBXNativeTarget "purpleBackgroundStickers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				77E522861DF386530015B85C /* Debug */,

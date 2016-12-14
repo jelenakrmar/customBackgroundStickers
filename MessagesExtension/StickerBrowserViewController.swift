@@ -1,6 +1,6 @@
 //
 //  StickerBrowserViewController.swift
-//  customizedStickers1
+//  purpleBackgroundStickers
 //
 //  Created by Jelena on 12/4/16.
 //  Copyright © 2016 Byteout. All rights reserved.

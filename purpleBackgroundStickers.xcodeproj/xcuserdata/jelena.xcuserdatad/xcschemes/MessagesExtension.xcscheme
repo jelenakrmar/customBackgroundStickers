@@ -18,7 +18,7 @@
                BlueprintIdentifier = "77E5226E1DF386530015B85C"
                BuildableName = "MessagesExtension.appex"
                BlueprintName = "MessagesExtension"
-               ReferencedContainer = "container:customizedStickers.xcodeproj">
+               ReferencedContainer = "container:purpleBackgroundStickers.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -30,9 +30,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "77E522641DF386530015B85C"
-               BuildableName = "customizedStickers.app"
-               BlueprintName = "customizedStickers"
-               ReferencedContainer = "container:customizedStickers.xcodeproj">
+               BuildableName = "purpleBackgroundStickers.app"
+               BlueprintName = "purpleBackgroundStickers"
+               ReferencedContainer = "container:purpleBackgroundStickers.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -50,7 +50,7 @@
             BlueprintIdentifier = "77E5226E1DF386530015B85C"
             BuildableName = "MessagesExtension.appex"
             BlueprintName = "MessagesExtension"
-            ReferencedContainer = "container:customizedStickers.xcodeproj">
+            ReferencedContainer = "container:purpleBackgroundStickers.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "77E522641DF386530015B85C"
-            BuildableName = "customizedStickers.app"
-            BlueprintName = "customizedStickers"
-            ReferencedContainer = "container:customizedStickers.xcodeproj">
+            BuildableName = "purpleBackgroundStickers.app"
+            BlueprintName = "purpleBackgroundStickers"
+            ReferencedContainer = "container:purpleBackgroundStickers.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -92,9 +92,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "77E522641DF386530015B85C"
-            BuildableName = "customizedStickers.app"
-            BlueprintName = "customizedStickers"
-            ReferencedContainer = "container:customizedStickers.xcodeproj">
+            BuildableName = "purpleBackgroundStickers.app"
+            BlueprintName = "purpleBackgroundStickers"
+            ReferencedContainer = "container:purpleBackgroundStickers.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
