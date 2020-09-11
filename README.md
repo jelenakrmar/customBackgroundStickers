@@ -18,6 +18,6 @@ To create similar app, just follow these steps:
 - Add button/text/link on top of or behind the sticker browser view
 - You can use this app as a starter kit when creating your own app - just replace existing images with your own, and set the background that you like.
 
-You can also check out [more advanced approach](https://jelenakrmar.github.io/customStickerApp/).
+You can also check out [more advanced approach](https://github.com/jelenakrmar/customStickerApp).
 
 This app is a part of the short [tutorial on iMessage sticker apps](http://www.slideshare.net/JelenaKrmar/different-types-of-sticker-apps-72003132).
