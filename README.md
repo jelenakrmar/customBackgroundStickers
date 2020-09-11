@@ -22,4 +22,4 @@ You can also check out [more advanced approach](https://github.com/jelenakrmar/c
 
 This app is a part of the short [tutorial on iMessage sticker apps](http://www.slideshare.net/JelenaKrmar/different-types-of-sticker-apps-72003132).
 
-<img src="https://raw.githubusercontent.com/jelenakrmar/customBackgroundStickers/master/Screenshot.png" />
+<img src="https://raw.githubusercontent.com/jelenakrmar/customBackgroundStickers/master/Screenshot.png" width="413px" height="354px" />
