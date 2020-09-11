@@ -20,4 +20,4 @@ To create similar app, just follow these steps:
 
 You can also check out [more advanced approach](https://jelenakrmar.github.io/customStickerApp/).
 
-This app is a part of the short tutorial on iMessage sticker apps: http://www.slideshare.net/JelenaKrmar/different-types-of-sticker-apps-72003132
+This app is a part of the short [tutorial on iMessage sticker apps](http://www.slideshare.net/JelenaKrmar/different-types-of-sticker-apps-72003132).
